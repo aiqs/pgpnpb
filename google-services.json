@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1051793649421",
+    "firebase_url": "https://neosantara-developer.firebaseio.com",
+    "project_id": "neosantara-developer",
+    "storage_bucket": "neosantara-developer.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1051793649421:android:7d04f86f68aa4f5d",
+        "android_client_info": {
+          "package_name": "com.neosantara.dev.pushnote"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1051793649421-t9u8e77j2saunhleuk2bjohhr0esooii.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1bM1p3R1Csy5rkjWTKDZs9G7d_3V8bdA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1051793649421-t9u8e77j2saunhleuk2bjohhr0esooii.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
