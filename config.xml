@@ -15,7 +15,7 @@
 <allow-intent href="geo:*"/>
 <allow-intent href="market:*"/>
 <access origin="*"/>
-<preference name="phonegap-version" value="cli-6.5.0" />
+<preference name="phonegap-version" value="cli-9.0.0" />
 <plugin name="cordova-plugin-device" spec="2.0.3"/>
 <plugin name="cordova-plugin-compat" spec="1.2.0"/>
 <plugin name="cordova-plugin-dialogs" spec="2.0.2"/>
