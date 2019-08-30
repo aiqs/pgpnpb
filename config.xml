@@ -31,7 +31,7 @@
     <preference name="Orientation" value="portrait"/>
     <preference name="android-signed" value="true"/>
     <preference name="AndroidLaunchMode" value="singleTop"/>
-	<preference name="SplashMaintainAspectRatio" value="false"/>
+    <preference name="SplashMaintainAspectRatio" value="false"/>
 </platform>
 <icon platform="android" src="package-assets/logo_36.png" density="ldpi" width="36" height="36"/>
 <icon platform="android" src="package-assets/logo_48.png" density="mdpi" width="48" height="48"/>
