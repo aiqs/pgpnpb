@@ -20,7 +20,7 @@
 <plugin name="cordova-plugin-compat" spec="1.0.0"/>
 <plugin name="cordova-plugin-dialogs" spec="1.2.1"/>
 <plugin name="cordova-plugin-whitelist" spec="1.2.2"/>
-<plugin name="pushbots-cordova-plugin" spec="1.6.x" source="npm" />
+<plugin name="pushbots-cordova-plugin" spec="1.6.10" source="npm" />
 <platform name="android" >
     <preference name="android-minSdkVersion" value="19"/>
     <preference name="android-targetSdkVersion" value="28"/>
