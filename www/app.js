@@ -16,11 +16,21 @@ var app = {
     // function, we must explicitly call 'app.receivedEvent(...);'
     onDeviceReady: function() {
         app.receivedEvent('deviceready');
-		window.plugins.PushbotsPlugin.initialize("5d685fb4b794125eb92d5902", {"android":{"sender_id":"1051793649421"}});
-		
-		window.plugins.PushbotsPlugin.on("registered", function(token){
-			alert("Registration Id:" + token);
-		});
+		if(window.plugins){
+			alert('winPlug in');
+			if(window.plugins.PushbotsPlugin){
+				alert('winPlug PB in');				
+				window.plugins.PushbotsPlugin.initialize("5d685fb4b794125eb92d5902", {"android":{"sender_id":"1051793649421"}});
+				
+				window.plugins.PushbotsPlugin.on("registered", function(token){
+					alert("Registration Id:" + token);
+				});
+			}else{
+				alert('winPlug PB off');
+			}
+		}else{
+			alert('winPlug off');
+		}
     },
     // Update DOM on a Received Event
     receivedEvent: function(id) {
