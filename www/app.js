@@ -19,8 +19,8 @@ var app = {
 		if(window.plugins){
 			alert('winPlug in');
 			if(window.plugins.PushbotsPlugin){
-				alert('winPlug PB in');				
-				window.plugins.PushbotsPlugin.initialize("5d685fb4b794125eb92d5902", {"android":{"sender_id":"1051793649421"}});
+				alert('winPlug PB in');
+				window.plugins.PushbotsPlugin.initialize("5d68715db794125ecf4379c9", {"android":{"sender_id":"1051793649421"}});
 				
 				window.plugins.PushbotsPlugin.on("registered", function(token){
 					alert("Registration Id:" + token);
